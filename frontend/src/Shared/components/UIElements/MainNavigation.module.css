@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  ul a.active {
+    @apply border-[1px] border-white bg-yellow p-2 text-green rounded;
+  }
+}

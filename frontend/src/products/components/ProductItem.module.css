@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+  .responsive-classes {
+    @apply tablet:h[18rem]  tablet:w-[11.8rem] laptop:h-[20rem] laptop:w-[12.8rem] desktop:h-[22rem] w-[13.8rem];
+  }
+} */
