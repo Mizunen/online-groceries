@@ -5,7 +5,9 @@
 html {
   font-size: 16px;
 }
-
+body {
+  padding-bottom: 55px;
+}
 #backdrop-container {
   opacity: 25%;
 }

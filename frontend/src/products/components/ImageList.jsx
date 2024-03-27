@@ -24,6 +24,7 @@ const ImageList = (props) => {
         {props.images.map((image, index) => {
           return (
             <figure
+              key={`preview-image-${index}`}
               className={`h-[5rem] w-[5rem]  box-content mx-2 ${
                 selectedImage == index && "border-2 border-green"
               }`}

@@ -17,7 +17,7 @@ const DetailsContainer = (props) => {
   console.log("reviews in details container is");
   console.log(props.reviews);
   return (
-    <section className="w-[20rem]">
+    <section className="w-[20rem] mb-2">
       <details className="h-auto">
         <summary
           className="flex justify-between h-[1.5rem]"
@@ -41,10 +41,14 @@ const DetailsContainer = (props) => {
         {props.type !== "review" && props.type !== "nutrition" && (
           <p>{props.details}</p>
         )}
-        {props.type === "nutrition" && <NutritionalFacts />}
+        {props.type === "nutrition" && (
+          <>
+            <NutritionalFacts />{" "}
+          </>
+        )}
         {props.type === "review" &&
           props.reviews.map((review) => {
-            return;
+            return <p>{review.review}</p>;
           })}
       </details>
     </section>
