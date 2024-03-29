@@ -7,16 +7,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://cosmiccrisp.com/wp-content/uploads/2022/09/cosmic-crisp-featured-img.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Best apple money can buy.",
-        numStars: 3,
-        product: "p1",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Best apple money can buy.",
+          numStars: 3,
+          product: "p1",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 3,
+    averageStarRating: 3,
   },
   {
     id: "p2",
@@ -26,16 +39,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://cdn.shopify.com/s/files/1/0059/8835/2052/products/Honeycrisp_Apple_3_FGT.jpg?v=1698960740",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Okayest apple money can buy.",
-        numStars: 4,
-        product: "p2",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Okayest apple money can buy.",
+          numStars: 4,
+          product: "p2",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 4,
+    averageStarRating: 4,
   },
   {
     id: "p3",
@@ -45,16 +71,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://cdn.shopify.com/s/files/1/0059/8835/2052/products/Red_Delicious_Apple_2.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Worst apple money can buy.",
-        numStars: 4,
-        product: "p3",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Worst apple money can buy.",
+          numStars: 4,
+          product: "p3",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 4,
+    averageStarRating: 4,
   },
   {
     id: "p4",
@@ -64,16 +103,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://t3.ftcdn.net/jpg/06/34/40/22/360_F_634402218_41XksfHts40214t2EHkhA4ivNUen479W.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "I see why monkeys like them so much.",
-        numStars: 3,
-        product: "p4",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "I see why monkeys like them so much.",
+          numStars: 3,
+          product: "p4",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 3,
+    averageStarRating: 3,
   },
   {
     id: "p5",
@@ -83,16 +135,28 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://tacomaboys.com/wp-content/uploads/2020/04/TB-27-8701-1024x588.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Saved me when I got lost in the snow.",
-        numStars: 5,
-        product: "p5",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Saved me when I got lost in the snow.",
+          numStars: 5,
+          product: "p5",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 5,
   },
   {
     id: "p6",
@@ -102,16 +166,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://draxe.com/wp-content/uploads/2017/04/GrapefruitBenefitsThumbnail.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Good for scurvy I think.",
-        numStars: 3,
-        product: "p6",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Good for scurvy I think.",
+          numStars: 3,
+          product: "p6",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 3,
+    averageStarRating: 3,
   },
   {
     id: "p7",
@@ -121,16 +198,37 @@ let DUMMY_PRODUCTS = [
     unit: { name: "lb", numUnits: 1 },
     image:
       "https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/watermelon.jpg?itok=6EdNOdUo",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Great for hydration and cooling down in the summer.",
-        numStars: 4,
-        product: "p7",
+    reviewData: {
+      averageStarRating: 4.13,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Great for hydration and cooling down in the summer.",
+          numStars: 4,
+          product: "p7",
+          date: "2024-3-14",
+        },
+        {
+          title: "This is a lorem ipsum review",
+          creator: "Billy Bob",
+          review:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          numStars: 3,
+          product: "p7",
+          date: "2024-3-16",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 4,
   },
   {
     id: "p8",
@@ -140,16 +238,29 @@ let DUMMY_PRODUCTS = [
     unit: { name: "oz", numUnits: 1 },
     image:
       "https://www.health.com/thmb/18xOlsk4Eb84ciGWMo9LVXBkWKk=/2121x0/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberries-c5f434e7729e47c5b32c0deaa029386c.jpg",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Great for hydration.",
-        numStars: 4,
-        product: "p8",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Great for hydration.",
+          numStars: 4,
+          product: "p8",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 4,
+    averageStarRating: 4,
   },
   {
     id: "p9",
@@ -158,16 +269,29 @@ let DUMMY_PRODUCTS = [
     price: "1.99",
     unit: { name: "oz", numUnits: 2 },
     image: "https://www.kroger.com/product/images/xlarge/front/0003338322241",
-    reviews: [
-      {
-        creator: "u1",
-        review: "Pretty good fruit great for your memory.",
-        numStars: 2,
-        product: "p9",
+    reviewData: {
+      averageStarRating: 5,
+      totalStars: {
+        total: 78,
+        5: 30,
+        4: 25,
+        3: 10,
+        2: 4,
+        1: 9,
       },
-    ],
+      reviews: [
+        {
+          title: "This is a review",
+          creator: "u1",
+          review: "Pretty good fruit great for your memory.",
+          numStars: 2,
+          product: "p9",
+          date: "2024-3-14",
+        },
+      ],
+    },
     categories: ["fruit"],
-    starRating: 2,
+    averageStarRating: 2,
   },
 ];
 

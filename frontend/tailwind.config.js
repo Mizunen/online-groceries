@@ -11,6 +11,8 @@ module.exports = {
       searchbarGrey: "#F2F3F2",
       textGrey: "#7C7C7C",
       cardBorderGrey: "#E2E2E2",
+      orange: "#F3603F",
+      graphBarOrange: "hsla(11, 88%, 60%, 30%)",
     },
     screens: {
       phone: "375px",

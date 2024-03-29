@@ -5,9 +5,11 @@ import StarRating from "../../Shared/components/FormElements/StarRating";
 import detailsIcon from "../../Shared/assets/icons/details-icon.svg";
 import styles from "./DetailsContainer.module.css";
 import NutritionalFacts from "../../Shared/components/UIElements/NutritionalFacts";
+import ReviewsSection from "./ReviewsSection";
 
 const DetailsContainer = (props) => {
   const [showDetails, setShowDetails] = useState(false);
+
   const showDetailsHandler = (event) => {
     // Show details and rotate icon
     setShowDetails((prevState) => {
@@ -46,10 +48,18 @@ const DetailsContainer = (props) => {
             <NutritionalFacts />{" "}
           </>
         )}
-        {props.type === "review" &&
-          props.reviews.map((review) => {
+        {
+          props.type === "review" && (
+            <ReviewsSection
+              reviewData={props.reviewData}
+              // reviews={props.reviews}
+              // averageStarRating={props.averageStarRating}
+            />
+          )
+          /* props.reviews.map((review) => {
             return <p>{review.review}</p>;
-          })}
+          }) */
+        }
       </details>
     </section>
   );

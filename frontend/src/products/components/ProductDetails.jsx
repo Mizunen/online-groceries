@@ -116,7 +116,9 @@ const ProductDetails = (props) => {
         <DetailsContainer
           title="Reviews"
           type="review"
-          reviews={product.reviews}
+          reviewData={product.reviewData}
+          // reviews={product.reviewData.reviews}
+          // averageStarRating={product.reviewData.averageStarRating}
         />
       </section>
     </>

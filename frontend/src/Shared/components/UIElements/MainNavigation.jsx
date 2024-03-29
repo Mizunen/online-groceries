@@ -34,7 +34,7 @@ function MainNavigation() {
   ];
 
   return (
-    <header className="h-[5rem] bg-green p-5 text-white ">
+    <header className="h-[5rem] w-full bg-green p-5 text-white fixed top-0 z-10 ">
       <nav className="flex md:flex-row h-auto sm:pl-10 align-center justify-between ">
         <figure id="logo" className="h-10 mb-8 w-[8rem]">
           <a href="/">
